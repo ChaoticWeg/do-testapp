@@ -4,7 +4,9 @@
   "description": "DigitalOcean test webapp",
   "main": "index.js",
   "scripts": {
-    "test": "nodemon -x \"./test.sh\""
+    "test": "run-script-os",
+    "test:win32": "nodemon -x \"test.bat\"",
+    "test:linux": "nodemon -x \"./test.sh\""
   },
   "repository": {
     "type": "git",
@@ -21,8 +23,10 @@
     "morgan": "^1.9.0",
     "pug": "^2.0.0-rc.4"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "run-script-os": "^1.0.3"
+  },
   "nodemonConfig": {
-    "ext": "js sh"
+    "ext": "js sh bat"
   }
 }
