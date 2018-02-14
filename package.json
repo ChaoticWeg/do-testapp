@@ -1,0 +1,23 @@
+{
+  "name": "testapp",
+  "version": "1.0.0",
+  "description": "DigitalOcean test webapp",
+  "main": "index.js",
+  "scripts": {
+    "test": "test.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChaoticWeg/do-testapp.git"
+  },
+  "author": "ChaoticWeg",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ChaoticWeg/do-testapp/issues"
+  },
+  "homepage": "https://github.com/ChaoticWeg/do-testapp#readme",
+  "dependencies": {
+    "express": "^4.16.2",
+    "pug": "^2.0.0-rc.4"
+  }
+}
