@@ -4,7 +4,7 @@
   "description": "DigitalOcean test webapp",
   "main": "index.js",
   "scripts": {
-    "test": "test.sh"
+    "test": "nodemon -x \"./test.sh\""
   },
   "repository": {
     "type": "git",
@@ -18,6 +18,11 @@
   "homepage": "https://github.com/ChaoticWeg/do-testapp#readme",
   "dependencies": {
     "express": "^4.16.2",
+    "morgan": "^1.9.0",
     "pug": "^2.0.0-rc.4"
+  },
+  "devDependencies": {},
+  "nodemonConfig": {
+    "ext": "js sh"
   }
 }
