@@ -1,7 +1,35 @@
 doctype html
 html
     head
-        title Test Page
+        //- TODO responsiveness
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible" content="IE=edge")
+        meta(name="viewport" content="width=device-width, initial-scale=1")
+
+        //- regular head
+        title #{title ? title + " - " : ""}ChaoticWeg
+
+        //- styles
+        link(href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css", rel="stylesheet", integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm", crossorigin="anonymous")
+        link(href="https://maxcdn.bootstrapcdn.com/bootswatch/4.0.0-beta.3/cosmo/bootstrap.min.css", rel="stylesheet", integrity="sha384-a1fJ5ppVJ3J5OscI8CmYpZH6XRnafYX7sXnA9uVadDWXox/IU9IIk9zz5zNE5HPL", crossorigin="anonymous")
+        block styles
+
+        //- scripts
+        script(src="http://code.jquery.com/jquery-3.3.1.min.js")
+        script(src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js", integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl", crossorigin="anonymous")
+        block scripts
+
+        
+
     body
-        block content
+        include ../includes/navbar
+
+        block pre
+
+        .container#content(style="margin-top:2rem;")
+            block content
+        
+        block post
+
+        include ../includes/footer
 
