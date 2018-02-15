@@ -1,0 +1,15 @@
+extends templates/main
+
+block styles
+    link(href="/styles/table.css" rel="stylesheet")
+
+block content
+    .container#buttons
+        .row
+            .col-6
+                button.btn#btnMenu Menu
+            .col-6
+                button.btn#btnOrder Order
+        .row
+            .col-6
+                button.btn#btnGames Games
