@@ -2,16 +2,18 @@
     .container
         
         a.navbar-brand(href="/") Brand
+        
         button.navbar-toggler(data-toggle="collapse" data-target="#navbar-contents")
             span.navbar-toggler-icon
         
         .collapse.navbar-collapse#navbar-contents
             ul.navbar-nav.mr-auto
-                li.nav-item.dropdown
-                    a.nav-link.dropdown-toggle#show-views(href="#" role="button" data-toggle="dropdown") Views
-                    .dropdown-menu
-                        a.dropdown-item(href="/table") Table
-                        a.dropdown-item(href="/staff") Staff
-                        a.dropdown-item(href="/kitchen") Kitchen
-                        a.dropdown-item(href="/manager") Manager
+                li.nav-item#nav-table
+                    a.nav-link(href="/table") Table
+                li.nav-item#nav-staff
+                    a.nav-link(href="/staff") Staff
+                li.nav-item#nav-kitchen
+                    a.nav-link(href="/kitchen") Kitchen
+                li.nav-item#nav-manager
+                    a.nav-link(href="/manager") Manager
                     
