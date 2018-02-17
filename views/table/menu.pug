@@ -22,7 +22,7 @@ block content
                             .card.menu-item
                                 .card-body
                                     h4.card-title= item.name + " "
-                                        small.mb-2.text-muted= " - $" + item.price
+                                        small.mb-2.text-muted= " - " + item.price.toLocaleString("en-US", { style: "currency", currency: "USD" })
                                     p.card-text= item.description
                         
                     - }
