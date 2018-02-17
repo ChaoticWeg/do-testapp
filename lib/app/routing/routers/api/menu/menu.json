@@ -5,7 +5,7 @@
             {
                 "name": "Water",
                 "price": 0.00,
-                "description": "Fresh, filtered water. Definitely not from the tap."
+                "description": "Fresh, filtered water. Definitely not from the tap, or from the dishwasher hose."
             },
             {
                 "name": "Soft Drink",
@@ -26,22 +26,22 @@
     },
 
     "appetizers": {
-        "name": "Apps",
+        "name": "Appetizers",
         "items": [
             {
                 "name": "Bottomless Chips and Salsa",
                 "price": 5.99,
-                "description": ""
+                "description": "Get some chips and some salsa. As much as you want. Fuck it."
             },
             {
                 "name": "Spinach and Artichoke Dip",
                 "price": 4.99,
-                "description": ""
+                "description": "Dip made with spinach and artichoke. We're not sure what an \"artichoke\" is but it's probably good."
             },
             {
                 "name": "Fried Pickles",
                 "price": 4.99,
-                "description": ""
+                "description": "Cucumbers, pickled in vinegar, battered and fried. You'll have it all to yourself because no one else will want any."
             }
         ]
     },
@@ -63,7 +63,7 @@
     },
 
     "kids": {
-        "name": "For the Kids",
+        "name": "For Kids",
         "items": [
             {
                 "name": "Hot Dog",
@@ -85,6 +85,11 @@
                 "name": "Ice Cream",
                 "price": 2.99,
                 "description": "Some ice cream. Pretty cheap."
+            },
+            {
+                "name": "Chocolate Cake",
+                "price": 4.69,
+                "description": "Nice."
             }
         ]
     }

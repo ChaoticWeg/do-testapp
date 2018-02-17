@@ -9,16 +9,22 @@ block content
         - for (var s in menu) {
             - var section = menu[s]
 
-            h2.display-4= section.name
+            .container.border-bottom.menu-section
 
-            - for (var item in section.items) {
+                h2.display-4= section.name
 
-                .card.menu-item
-                    .card-body
-                        h4.card-title= item.name
-                        h6.card-subtitle.mb-2.text-muted= item.price
-                        p.card-text= item.description
-                
-            - }
+                .row
+
+                    - for (var i in section.items) {
+                        - var item = section.items[i]
+
+                        .col-12.col-md-6
+                            .card.menu-item
+                                .card-body
+                                    h4.card-title= item.name + " "
+                                        small.mb-2.text-muted= " - $" + item.price
+                                    p.card-text= item.description
+                        
+                    - }
 
         - }
