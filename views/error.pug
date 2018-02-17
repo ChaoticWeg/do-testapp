@@ -1,0 +1,6 @@
+extends /templates/main
+
+block content
+    h2.display-4 Whoops...
+    p= err.message
+    pre= JSON.stringify(err, null, 4)
