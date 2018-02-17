@@ -1,0 +1,91 @@
+{
+    "drinks": {
+        "name": "Drinks",
+        "items": [
+            {
+                "name": "Water",
+                "price": 0.00,
+                "description": "Fresh, filtered water. Definitely not from the tap."
+            },
+            {
+                "name": "Soft Drink",
+                "price": 3.99,
+                "description": "Available: Coca-Cola, Sprite, Dr Pepper, 7-Up."
+            },
+            {
+                "name": "Coffee",
+                "price": 3.99,
+                "description": "Hot, black coffee. Cream and sugar available on request."
+            },
+            {
+                "name": "Iced Coffee",
+                "price": 4.99,
+                "description": "Iced cold-brew coffee. Cream and sugar available on request."
+            }
+        ]
+    },
+
+    "appetizers": {
+        "name": "Apps",
+        "items": [
+            {
+                "name": "Bottomless Chips and Salsa",
+                "price": 5.99,
+                "description": ""
+            },
+            {
+                "name": "Spinach and Artichoke Dip",
+                "price": 4.99,
+                "description": ""
+            },
+            {
+                "name": "Fried Pickles",
+                "price": 4.99,
+                "description": ""
+            }
+        ]
+    },
+
+    "entrees": {
+        "name": "Entrées",
+        "items": [
+            {
+                "name": "Sandwich",
+                "price": 7.99,
+                "description": "It's a dang sandwich"
+            },
+            {
+                "name": "Hot Dog",
+                "price": 6.99,
+                "description": "Not a sandwich"
+            }
+        ]
+    },
+
+    "kids": {
+        "name": "For the Kids",
+        "items": [
+            {
+                "name": "Hot Dog",
+                "price": 4.99,
+                "description": "Hot dog, but for kids"
+            },
+            {
+                "name": "The Void",
+                "price": 0.99,
+                "description": "Please delete this, it's not professional. Weg. I mean it."
+            }
+        ]
+    },
+
+    "desserts": {
+        "name": "Desserts",
+        "items": [
+            {
+                "name": "Ice Cream",
+                "price": 2.99,
+                "description": "Some ice cream. Pretty cheap."
+            }
+        ]
+    }
+}
