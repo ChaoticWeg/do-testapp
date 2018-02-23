@@ -6,7 +6,11 @@
   "scripts": {
     "test": "run-script-os",
     "test:win32": "nodemon -x \"test.bat\"",
-    "test:linux": "nodemon -x \"./test.sh\""
+    "test:linux": "nodemon -x \"./test.sh\"",
+
+    "start": "run-script-os",
+    "start:linux": "start.sh",
+    "start:win32": "start.bat"
   },
   "repository": {
     "type": "git",
